@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Zenalda ❤️</title>
+
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(135deg,#ff758c,#ff7eb3);
+            font-family:Arial, sans-serif;
+            color:white;
+            text-align:center;
+        }
+
+        .card{
+            background:rgba(255,255,255,0.15);
+            padding:40px;
+            border-radius:20px;
+            backdrop-filter:blur(10px);
+            box-shadow:0 0 25px rgba(0,0,0,0.2);
+            max-width:600px;
+        }
+
+        h1{
+            font-size:3em;
+            margin-bottom:15px;
+        }
+
+        p{
+            font-size:1.3em;
+            line-height:1.6;
+        }
+
+        .heart{
+            font-size:60px;
+            animation:pulse 1.5s infinite;
+        }
+
+        @keyframes pulse{
+            0%{transform:scale(1);}
+            50%{transform:scale(1.2);}
+            100%{transform:scale(1);}
+        }
+
+        button{
+            margin-top:20px;
+            padding:12px 25px;
+            border:none;
+            border-radius:30px;
+            background:white;
+            color:#ff4d6d;
+            font-size:18px;
+            cursor:pointer;
+            font-weight:bold;
+        }
+
+        button:hover{
+            transform:scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="heart">❤️</div>
+
+        <h1>Zenalda</h1>
+
+        <p>
+            Eu gosto de ti.<br><br>
+            Criei este pequeno espaço só para ti porque és uma pessoa especial.
+            Sempre que vires esta página, lembra-te que alguém pensou em ti com carinho.
+        </p>
+
+        <button onclick="mostrarMensagem()">
+            Clica Aqui
+        </button>
+    </div>
+
+    <script>
+        function mostrarMensagem(){
+            alert("Zenalda, gosto muito de ti ❤️");
+        }
+    </script>
+
+</body>
+</html>
